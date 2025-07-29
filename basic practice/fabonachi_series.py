@@ -21,13 +21,26 @@
 #     a , b = b, a + b
 
 #using for loop 
-n = int(input("Enter Number: "))
+# n = int(input("Enter Number: "))
 
-a,b = 0,1
+# a,b = 0,1
 
-for _ in range(100):
-    if a > n:
-        break
+# for _ in range(100):
+#     if a > n:
+#         break
 
-    print(a, end=' ')
-    a,b = b, a + b
+#     print(a, end=' ')
+#     a,b = b, a + b
+
+
+n = int(input("Enter number:"))
+
+a = 1
+b = 1
+i = 1
+while i <= n:
+    temp = a + b
+    print(a)
+    a = b
+    b = temp
+    i = i + 1
