@@ -1,9 +1,15 @@
-arr = [1,2,3,4,5,3,1,2]
+# Write a program to check if array is sorted.
 
-arr1 = set(arr)
+def sortedArr(arr):
+    for i in range(len(arr) - 1):
+        if arr[i] > arr[i + 1]:
+            return False
+    return True
 
-arr1 = list(arr)
+# a = sortedArr([1,2,3,4,5])
+a = sortedArr([3,2,3,4,5])
 
-arr1 = sorted(arr1)
-
-print(arr == arr1)
+if a :
+    print("Array are soted")
+else:
+    print("Array are not sorted")
