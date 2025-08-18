@@ -10,6 +10,6 @@ def sortedArr(arr):
 a = sortedArr([3,2,3,4,5])
 
 if a :
-    print("Array are soted")
+    print("Array are sorted")
 else:
     print("Array are not sorted")
