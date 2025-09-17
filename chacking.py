@@ -33,6 +33,8 @@ print(list(range(1,11,1)))
 
 print(True + True)
 print(False - True)
+print(False - False)
+
 
 a = None
 print(type(a))
