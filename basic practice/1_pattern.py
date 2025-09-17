@@ -6,5 +6,9 @@
 # for i in range(i, 5):
 #     print(' '*(i),' *'*(5-i))
 
-for i in range(1,6):
-    print("*"*i)
+# for i in range(1,6):
+#     print("*"*i)
+
+
+for i in range(1,7):
+    print("*" * i)
