@@ -1,3 +1,6 @@
 t&p.txt
 python-practice.txt
 demo.py 
+.github/
+.vscode/
+__pycache__/
