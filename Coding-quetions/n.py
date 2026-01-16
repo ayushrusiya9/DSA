@@ -3,3 +3,4 @@ def natural(n):
         print(i)
     
 natural(5)
+
