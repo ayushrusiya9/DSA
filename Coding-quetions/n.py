@@ -4,3 +4,4 @@ def natural(n):
     
 natural(5)
 
+natural(10)
