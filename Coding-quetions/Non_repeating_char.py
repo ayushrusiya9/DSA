@@ -17,3 +17,7 @@ for ch in range(len(s)):
         break;
 else:
     print("string have no repeating character.")
+
+def natural(n):
+    for i in range(1, n + 1):
+        print(i)    
