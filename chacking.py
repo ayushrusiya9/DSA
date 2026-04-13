@@ -10,7 +10,6 @@
 # d2 = {1:"one", 2:"two"}
 # print(id(d1), id(d2))
 
-
 # s1 ={1,2,3}
 # s2 ={1,2,3}
 # print(id(s1),id(s2))
