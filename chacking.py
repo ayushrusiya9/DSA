@@ -37,4 +37,5 @@ print(False - False)
 
 
 a = None
+b = None
 print(type(a))
